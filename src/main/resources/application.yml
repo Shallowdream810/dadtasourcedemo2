@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/users
+    username: root
+    password: root
+  redis:
+    host: 192.168.8.99
+    port: 6379
+    password: offcn
+logging:
+  level:
+    cn.itcast: debug
+#    org.springframework: debug
+
