@@ -9,13 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.sql.DataSource;
 
 @RestController
+@RequestMapping("/test")
 public class UserController {
 
     @Autowired
     private DataSource dataSource;
 
 
-    @RequestMapping("va")
+    @RequestMapping("/va")
     private String getdat(){
         return "123";
     }
