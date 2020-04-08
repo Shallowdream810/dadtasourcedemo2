@@ -11,7 +11,7 @@
     <groupId>com.ghh</groupId>
     <artifactId>datasourcedemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>datasourcedemo</name>
+    <name>datasourcedemo2</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
